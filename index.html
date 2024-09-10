@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stone Papers Scissors</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <h1>Let's PLAY Stone<i id="icons1" class="fa-regular fa-hand-back-fist"></i> Paper<i id="icons2" class="fa-regular fa-hand"></i> Scissors<i id="icons3" class="fa-regular fa-hand-scissors"></i></h1>
+   <div class="fun">
+    <h2>Click the button! For Color Alters</h2>
+    <button id="change">Dark Mode</button>
+    <h2 id="rules">Click here! to know about-<u>RULES</u></h2>
+</div>
+    <div class="choices">
+        <div class="choice" id="stone">
+            <img src="./images/codeStone.png">
+        </div>
+        <div class="choice" id="paper">
+            <img src="./images/codePaper.png">
+        </div>
+        <div class="choice" id="scissors">
+            <img src="./images/codeScissors.png">
+        </div>
+    </div>
+    <div class="score-board">
+        <div class="score">
+            <p id="user-score">0</p>
+            <p>You</p>
+        </div>
+        <div class="score">
+            <p id="comp-score">0</p>
+            <p>Comp</p>
+        </div>
+    </div>
+    <div class="msg-container">
+        <p id="msg">Choose Your Luck</p>
+    </div>
+    <script src="./scripts/game.js"></script>
+</body>
+</html>
