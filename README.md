@@ -10,6 +10,7 @@ Stone Paper Scissors Game
 This is a simple and interactive Stone Paper Scissors game built using HTML, CSS, and JavaScript. The game allows players to choose between stone, paper, or scissors and play against the computer. Additionally, the game features a mode switcher that changes the background color between dark mode and pink mode.
 
 <b>How to Play</b>
+
 There is "click to know" option to get familiar with the game.
 
 1.Open the game in your web browser.
