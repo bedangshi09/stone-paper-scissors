@@ -18,10 +18,15 @@ There is "click to know" option to get familiar with the game.
 2.Click on one of the hand icons (stone, paper, or scissors) to make your choice.
 
 3.The computer will randomly select its choice.
+
 4.The winner is determined based on the classic rules:
+
 -Stone beats scissors.
+
 -Scissors beat paper.
+
 -Paper beats stone.
+
 5.The scores are updated accordingly.
 
 <b>Features</b>
